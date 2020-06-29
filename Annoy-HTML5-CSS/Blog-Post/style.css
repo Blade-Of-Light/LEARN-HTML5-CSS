@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif, Arial;
+  font-size: 17px;
+}
+
+h1, h2 {
+  color: green;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+
+p {
+  text-align: justify;
+}
