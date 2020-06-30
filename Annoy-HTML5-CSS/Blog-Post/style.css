@@ -15,7 +15,10 @@ h2 {
   font-size: 23px;
 }
 
+.main-text {
+  text-align: justfy;
+}
 
-p {
-  text-align: justify;
+.author-text {
+  font-size: 25;
 }
