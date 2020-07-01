@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.clearfix: after {
+  content = '';
+  display = table;
+  clear = both;
+}
+
 body {
   font-family: sans-serif, Arial;
   font-size: 17px;
@@ -23,10 +29,31 @@ h2 {
   margin-bottom: 15px;
 }
 
+.container {
+  width: 900px;
+  margin: 20px auto 0 auto;
+}
+
 .main-text {
   text-align: justfy;
 }
 
 .author-text {
   font-size: 25;
+}
+
+.blog-post {
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+}
+
+.other-post {
+  width: 25%;
+  float: left;
+}
+
+.author-post {
+  border-top: 1px solid #818181;
+  padding-top: 20px;
 }
