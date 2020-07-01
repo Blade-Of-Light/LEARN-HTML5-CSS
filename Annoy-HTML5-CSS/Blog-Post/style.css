@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.blog-post img {
+  height: 200px;
+  width: auto;
+}
+
 .clearfix: after {
   content = '';
   display = table;
@@ -40,6 +45,7 @@ h2 {
 
 .author-text {
   font-size: 25;
+  margine: 30px 0px 0px 10px
 }
 
 .blog-post {
@@ -51,6 +57,10 @@ h2 {
 .other-post {
   width: 25%;
   float: left;
+}
+
+.other {
+  margin-top: 40;
 }
 
 .author-post {
