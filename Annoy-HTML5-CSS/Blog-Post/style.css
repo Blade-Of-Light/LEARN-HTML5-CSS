@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.blog-post img {
-  height: 200px;
-  width: auto;
-}
-
 .clearfix: after {
   content = '';
   display = table;
@@ -48,6 +43,8 @@ h2 {
   margine: 30px 0px 0px 10px
 }
 
+
+
 .blog-post {
   width: 75%;
   float: left;
@@ -66,4 +63,16 @@ h2 {
 .author-post {
   border-top: 1px solid #818181;
   padding-top: 20px;
+}
+
+
+.blog-post img {
+  height: 200px;
+  width: auto;
+}
+
+.date {
+  position: absolute;
+  top: 20px;
+  right: 30px;
 }
