@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #545454;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20;
+  text-rendering: optimizeLegibility;
+}
