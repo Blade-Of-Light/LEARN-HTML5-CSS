@@ -6,10 +6,10 @@
 
 html {
   background-color: #fff;
-  color: #545454;
+  color: #a8a8a8;
   font-family: 'Montserrat', 'Arial', sans-serif;
   font-weight: 400;
-  font-size: 20;
+  font-size: 20px;
   text-rendering: optimizeLegibility;
 }
 
@@ -35,4 +35,51 @@ header {
 
 h1 {
   margin: 0;
+  color: #fff;
+  font-size: 240%;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  border: 1px solid rgb(244, 179, 54);
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(208, 146, 29);
+}
+
+.btn-full:link,
+.btn-full:visited {
+  color: #fff;
+  background-color: rgb(244, 179, 54);
+  margin-right: 15px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: rgb(213, 144, 13);
+  border: 1px solid rgb(213, 144, 13);
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  color:  rgb(244, 179, 54);
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border-color: rgb(213, 144, 13);
+  color: #fff;
 }
