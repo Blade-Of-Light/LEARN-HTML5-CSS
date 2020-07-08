@@ -398,3 +398,18 @@ cite img {
   margin-right: 10px;
   vertical-align: middle;
 }
+
+/* -------------------------------------- */
+/*               Section Plans            */
+/* -------------------------------------- */
+
+.section-plans {
+  background-color: rgb(241, 241, 241);
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 2%;
+  width: 90%;
+  margin-left: 5%;
+}
