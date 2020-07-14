@@ -460,7 +460,7 @@ cite img {
 }
 
 /* -------------------------------------- */
-/*               Customer Feedback        */
+/*            Customer Feedback           */
 /* -------------------------------------- */
 
 .contact-form {
@@ -484,4 +484,46 @@ textarea {
 
 input[type=checkbox] {
   margin: 10px 5px 15px 0;
+}
+
+
+
+/* -------------------------------------- */
+/*            Customer Feedback           */
+/* -------------------------------------- */
+
+footer{
+  background-color: rgb(66, 66, 66);
+  padding: 60px;
+}
+
+footer p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-nav {
+  list-style: none;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+  height: 20px;
+}
+
+.footer-nav li,
+.social-links li{
+  display:inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+  text-decoration: none;
+  border: 0;
+  color: rgb(182, 182, 182);
 }
