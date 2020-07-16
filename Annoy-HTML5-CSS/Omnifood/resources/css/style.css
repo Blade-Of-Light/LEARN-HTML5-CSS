@@ -8,8 +8,12 @@
 
 }
 
+
+
 html,
 body {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
   background-color: #fff;
   color: #a8a8a8;
   font-family: 'Montserrat', 'Arial', sans-serif;
@@ -43,6 +47,11 @@ body {
 
 section {
   padding: 80px 0;
+}
+
+.scrolling-box {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 /*               Headings                 */
@@ -404,16 +413,19 @@ header {
 /*               testimonial              */
 /* -------------------------------------- */
 
-.section-testimonials h2{
-  color: #fff;
-}
 
 .section-testimonials {
-  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+  /*background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+  */
+  background-color: #000;
   background-size: cover;
 
   color: #fff;
   background-attachment: fixed;
+}
+
+.section-testimonials h2{
+  color: #fff;
 }
 
 blockquote {
