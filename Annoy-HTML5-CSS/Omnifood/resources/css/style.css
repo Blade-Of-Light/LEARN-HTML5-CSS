@@ -12,7 +12,6 @@
 
 html,
 body {
-  overflow-y: scroll;
   scroll-behavior: smooth;
   background-color: #fff;
   color: #a8a8a8;
