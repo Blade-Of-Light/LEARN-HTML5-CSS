@@ -41,6 +41,17 @@ $('.js--section-plans').waypoint(function(direction) {
   $('.plan-box.fade-in').addClass('animate__animated animate__pulse');
 })
 
+/* mobile nav icon stuff*/
+
+$('.js--nav-icon').click(function() {
+  var nav = $('.js--main-nav');
+
+  nav.slideToggle(200);
+
+  $(nav).attr('name', 'chevron-up-outline');
+
+});
+
 /*
 var waypoints = $('#handler-first').waypoint(function(direction) {
   notify(this.element.id + ' hit 25% from top of window')

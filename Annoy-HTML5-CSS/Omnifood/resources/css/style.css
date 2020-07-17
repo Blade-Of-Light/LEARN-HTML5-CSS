@@ -228,6 +228,8 @@ header {
 
 /* Main Nav */
 .main-nav {
+  /* display type for jquery and mobile */
+  
   float: right;
   list-style: none;
   margin-top: 20px;
@@ -285,6 +287,21 @@ header {
 
 .sticky .logo-black {
   display : block;
+}
+
+/* mobile navigation */
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon .i {
+  font-size: 200%;
+  color: #fff;
+  margin-top: 0;
 }
 
 /* -------------------------------------- */

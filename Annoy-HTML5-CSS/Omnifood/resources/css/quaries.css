@@ -13,8 +13,51 @@
 
 /*smaller than an i-pad*/
 @media only screen and (max-width: 767px) {
+
   .main-nav{
-    display:none;
+    margin-top: 15px;
+    float: left;
+  }
+
+  .main-nav li {
+      display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    font-size: 110%;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .stick .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+    color: #343434;
+  }
+  .sticky .main-nav li a:hover,
+  .sticky .main-nav li a:active {
+    border: 0;
+  }
+
+  .sticky .logo {
+    display: none;
+  }
+
+  .sticky .logo-black {
+    display : block;
+  }
+
+  .sticky .mobile-nav-icon .i {
+    color: #343434;
   }
 
   .col {
@@ -48,7 +91,7 @@
   .col {
     width: 100%;
   }
-  
+
   .contact-form {
     width:100%;
   }
@@ -67,6 +110,10 @@
   .long-copy {
     width : 80%;
     margin-left: 10%;
+  }
+
+  .main-nav{
+    display: block;
   }
 
   .steps-box {
@@ -111,6 +158,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
+
   .hero-text-box {
     width: 100%;
     padding: 0 2%;
