@@ -34,11 +34,15 @@
 
   <body>
     <header>
+
+      <!-- navigation stuff -->
       <nav>
         <div class = 'row'>
+          <!--logo-->
           <img src='resources/img/logo-white.png' alt = 'Omnifood Logo' class = 'logo' />
           <img src='resources/img/logo.png' alt = 'Omnifood Logo' class = 'logo-black' />
           <ul class= 'main-nav js--main-nav'>
+            <!-- website links-->
             <li><a href='#features'>Food Delivery</a></li>
             <li><a href='#works'>How it Works</a></li>
             <li><a href='#cities'>Our Cities</a></li>
@@ -49,15 +53,21 @@
 
         </div>
       </nav>
+      <!--Web Title-->
       <div class = 'hero-text-box'>
         <h1>Goodbye junk food.<br /> Hello super healthy meals.</h1>
+        <!-- buttons-->
         <a class = 'btn btn-full js--scroll-to-plan' href='#'>I’m hungry</a>
         <a class = 'btn btn-ghost js--scroll-to-start' href='#'>Show me more</a>
       </div>
     </header>
+    <!-- end of header-->
 
+    <!-- for scrolling plug in-->
     <div class = 'scrolling-box'>
+      <!--feature section-->
       <section class='features js--section-features' id = 'features'>
+        <!--section header-->
         <div class='row'>
           <h2>Get food fast &mdash; not fast food</h2>
           <p class = 'long-copy'>
@@ -65,6 +75,7 @@
           </p>
         </div>
 
+        <!-- start of section content-->
         <div class = 'row features fade-in op-0'>
           <div class='col span-1-of-4 box'>
             <ion-icon name="sync-outline" class = 'icon-big'></ion-icon>
@@ -97,10 +108,13 @@
               We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
             </p>
           </div>
+          <!-- end of feature section content-->
         </div>
-
+        <!-- end of feature section-->
       </section>
 
+      <!-- start of meals section-->
+      <!-- small section of 8 interactive images-->
       <section class = 'section-meals'>
         <ul class = 'meals-showcase clearfix'>
           <li>
@@ -149,11 +163,15 @@
         </ul>
       </section>
 
+      <!--start of 'how it works' section-->
       <section class = 'section-steps js--section-steps' id = 'works'>
+        <!--section title-->
         <div class = 'row'>
           <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
+        <!-- section content-->
         <div class = 'row'>
+          <!--I phone image-->
           <div class = 'col span-1-of-2 steps-box fade-in op-0'>
             <img src = 'resources/img/app-iPhone.png' alt = 'Omnifood App on iPhone' class = 'app-screen'/>
           </div>
@@ -171,18 +189,21 @@
               <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
             </div>
 
+            <!-- app stores-->
             <a href= '#' class = 'btn-app'><img src = 'resources/img/download-app.svg' alt = 'App Store Button'/></a>
             <a href= '#' class = 'btn-app'><img src = 'resources/img/download-app-android.png' alt = 'Play Store Button'/></a>
           </div>
         </div>
       </section>
 
+      <!-- start of cities section-->
       <section class = 'section-cities js--cities' id = 'cities'>
+        <!-- section title-->
         <div class='row'>
           <h2>We're currently in these cities</h2>
         </div>
 
-
+        <!-- start of section content-->
         <div class='row section-cities fade-in op-0'>
           <div class='col span-1-of-4 box'>
             <img src='resources/img/lisbon-3.jpg' alt='lisbon' />
@@ -259,11 +280,14 @@
       </section>
     </div>
 
+    <!-- start of customer reviews-->
     <section class='section-testimonials'>
+      <!-- section title-->
       <div class = 'row'>
         <h2>Our customers can't live without us</h2>
       </div>
 
+      <!--start of section content-->
       <div class = 'row'>
         <div class = 'col span-1-of-3'>
           <blockquote>
@@ -288,13 +312,17 @@
       </div>
     </section>
 
+    <!-- had to make new scrolling box section due to complications with code-->
     <div class = 'scrolling-box'>
 
+      <!-- start of payment plan section-->
       <section class = 'section-plans js--section-plans' id = 'plans'>
+        <!-- section title-->
         <div class = 'row'>
           <h2>Start eating healthy today</h2>
         </div>
 
+        <!-- start of section content-->
         <div class = 'row'>
           <div class = 'col span-1-of-3'>
             <div class = 'plan-box fade-in'>
@@ -361,11 +389,14 @@
         </div>
       </section>
 
+      <!-- contact form section-->
       <section class='section-form'>
+        <!--section title-->
         <div class = 'row'>
           <h2>We're happy to hear from you</h2>
         </div>
 
+        <!-- start of section content-->
         <div class = 'row'>
           <form method='post' action='#' class='contact-form'>
             <div class = 'row'>
@@ -437,7 +468,9 @@
         </div>
       </section>
     </div>
+    <!-- end of main web page-->
 
+    <!-- start of footer-->
     <footer>
       <div class = 'row'>
         <div class = 'col span-1-of-2'>
@@ -492,14 +525,19 @@
         </p>
       </div>
     </footer>
+
+    <!--scripts -->
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src='vendors/js/jquery.waypoints.min.js'></script>
+
+    <!--needed scripts-->
     <script src='resources/js/script.js'></script>
 
+    <!--icon integration-->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   </body>
 </html>
